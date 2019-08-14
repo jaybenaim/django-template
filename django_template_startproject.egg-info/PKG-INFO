@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-template-startproject
+Version: 0.0.2
+Summary: A Django-template for setting up initial folders, with auth included.
+Home-page: https://github.com/jaybenaim/django-template
+Author: Jacob Benaim
+Author-email: benaimjacob@gmail.com
+License: UNKNOWN
+Description: A django template, with authentication implemented. After creating django app with django-admin startproject. CD into second project folder where settings.py exists. Make migrations. Add project name to settings. Add project name to views urls and models imports. Uncomment views import.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
