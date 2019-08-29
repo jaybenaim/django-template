@@ -3,7 +3,9 @@ A django template, with authentication implemented.
 1. In the settings folder change the following lines: 
 
     INSTALLED_APPS = [
-        ...
+        ... 
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
         '<Your app name >'
 
     ROOT_URLCONF = '<Your app name >.urls'
