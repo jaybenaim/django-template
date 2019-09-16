@@ -4,7 +4,7 @@ A django template, with authentication implemented.
 $ mkdir new-project 
 2. cd into new-project 
 3. activate virtual environment 
-4. django-admin start new-app and cd into new-app
+4. django-admin startproject new-app and cd into new-app
 5. fork and clone this repo into new-app 
 6. cp django-template/ new-app
 
@@ -15,6 +15,8 @@ git add . - Add all files to staging
 git commit -am "Initial commit" - Commit the files
 
 1. In the settings folder change the following lines: 
+    SECRET_KEY = "PLACE YOUR SECRET KEY HERE"
+    - use the key from the original settings file used when running django-admin startproject 
 
     INSTALLED_APPS = [
         ... 
