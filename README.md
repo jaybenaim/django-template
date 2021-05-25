@@ -7,7 +7,7 @@ $ mkdir new-project
 4. django-admin startproject new-app and cd into new-app
 5. fork and clone this repo into new-app 
 6. git clone https://github.com/jaybenaim/django-template.git .
-7. cp django-template/ new-app
+7. cp -R django-template/ new-app; rm -rf django-template/
 
 cd django-template 
 rm -rf .git (or in Windows rmdir .git /S /Q) - Remove Git database
